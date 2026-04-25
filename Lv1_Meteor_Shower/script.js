@@ -13,7 +13,7 @@ const MeteorType = {
   AUDIBLE: "audible",
   SILENT: "silent",
 };
-const EVENT_GAP_MS = 1300;
+const EVENT_GAP_MS = 3000;
 const EVENT_ROWS = [
   [0, 2, 0, 0, 1, 1, 2, 1],
   [0, 2, 2, 0, 0, 1, 1, 1],
