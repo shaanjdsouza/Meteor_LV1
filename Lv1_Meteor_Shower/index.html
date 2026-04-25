@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Star Field</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="space" aria-label="Black space scene with six stars">
+    <span class="star star-1"></span>
+    <span class="star star-2"></span>
+    <span class="star star-3"></span>
+    <span class="star star-4"></span>
+    <span class="star star-5"></span>
+    <span class="star star-6"></span>
+    <div class="meteor-layer" id="meteor-layer" aria-hidden="true"></div>
+
+    <div class="controls-panel">
+      <button class="control-button start-button" id="start-button" type="button">Start</button>
+      <button class="control-button reset-button" id="reset-button" type="button">Reset</button>
+    </div>
+
+    <div class="password-panel">
+      <input
+        class="password-box"
+        id="password-box"
+        type="text"
+        placeholder="________"
+        aria-label="Password"
+      >
+    </div>
+
+    <section class="reward-card" id="reward-card" hidden aria-live="polite">
+      <p>Congratulations!</p>
+      <p>Here is your reward:</p>
+      <p>xnP9</p>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
